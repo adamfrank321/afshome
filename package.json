@@ -1,0 +1,24 @@
+{
+  "name": "afshome",
+  "version": "1.0.0",
+  "description": "Personal portfolio website of Adam Frank",
+  "author": "Adam Frank",
+  "license": "MIT",
+  "homepage": "https://github.com/adamfrank321/afshome",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamfrank321/afshome.git"
+  },
+  "keywords": [
+    "portfolio",
+    "personal",
+    "website",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "scripts": {
+    "serve": "python -m http.server 8000"
+  },
+  "devDependencies": {}
+}

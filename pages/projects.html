@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Adam Frank</title>
+    <meta name="description" content="A showcase of my software engineering and design projects.">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="/" class="logo">AF</a>
+            <div class="nav-links">
+                <a href="/#about" class="nav-link">About</a>
+                <a href="/pages/writings.html" class="nav-link">Writings</a>
+                <a href="/pages/projects.html" class="nav-link">Projects</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <circle cx="12" cy="12" r="5"/>
+                        <line x1="12" y1="1" x2="12" y2="3"/>
+                        <line x1="12" y1="21" x2="12" y2="23"/>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                        <line x1="1" y1="12" x2="3" y2="12"/>
+                        <line x1="21" y1="12" x2="23" y2="12"/>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Projects</h1>
+                <p>A selection of work showcasing my approach to engineering and design.</p>
+            </div>
+        </section>
+
+        <section class="projects-showcase">
+            <div class="container">
+                <div class="projects-list">
+                    <!-- Project 1 -->
+                    <article class="project-detail">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h2>Personal Portfolio Website</h2>
+                                <p class="project-description">
+                                    A modern, responsive personal website built from scratch with vanilla HTML, CSS, and JavaScript. 
+                                    Features a clean design with dark mode support, smooth animations, and optimized performance. 
+                                    Hosted on GitHub Pages with automatic deployments.
+                                </p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <h4>Role</h4>
+                                        <p>Full Stack Developer</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4>Timeline</h4>
+                                        <p>January 2024</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4>Status</h4>
+                                        <p>Active</p>
+                                    </div>
+                                </div>
+                                <div class="project-tech">
+                                    <h4>Technologies</h4>
+                                    <div class="tech-list">
+                                        <span class="tag">HTML5</span>
+                                        <span class="tag">CSS3</span>
+                                        <span class="tag">JavaScript</span>
+                                        <span class="tag">GitHub Pages</span>
+                                        <span class="tag">Responsive Design</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View on GitHub</a>
+                                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-detail">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h2>Web Components Library</h2>
+                                <p class="project-description">
+                                    An open-source library of reusable web components for rapid application development. 
+                                    Built with Web Components standards, including custom elements, shadow DOM, and slots. 
+                                    Fully documented with interactive examples and TypeScript support.
+                                </p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <h4>Role</h4>
+                                        <p>Creator & Maintainer</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4>Timeline</h4>
+                                        <p>2023 - Present</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4>Status</h4>
+                                        <p>Ongoing</p>
+                                    </div>
+                                </div>
+                                <div class="project-tech">
+                                    <h4>Technologies</h4>
+                                    <div class="tech-list">
+                                        <span class="tag">Web Components</span>
+                                        <span class="tag">TypeScript</span>
+                                        <span class="tag">Shadow DOM</span>
+                                        <span class="tag">npm</span>
+                                        <span class="tag">Testing</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View on GitHub</a>
+                                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Documentation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-detail">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h2>Real-time Collaboration Tool</h2>
+                                <p class="project-description">
+                                    A web-based tool enabling real-time collaboration between teams. Features include live editing, 
+                                    presence indicators, comments, and version history. Built with React for the frontend and 
+                                    Node.js for the backend with WebSocket support for real-time updates.
+                                </p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <h4>Role</h4>
+                                        <p>Lead Developer</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4>Timeline</h4>
+                                        <p>June 2023 - December 2023</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4>Status</h4>
+                                        <p>Complete</p>
+                                    </div>
+                                </div>
+                                <div class="project-tech">
+                                    <h4>Technologies</h4>
+                                    <div class="tech-list">
+                                        <span class="tag">React</span>
+                                        <span class="tag">Node.js</span>
+                                        <span class="tag">WebSocket</span>
+                                        <span class="tag">MongoDB</span>
+                                        <span class="tag">Docker</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View on GitHub</a>
+                                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-detail">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h2>Performance Monitoring Dashboard</h2>
+                                <p class="project-description">
+                                    A comprehensive dashboard for monitoring web application performance metrics in real-time. 
+                                    Displays analytics for page load times, Core Web Vitals, error rates, and user engagement. 
+                                    Built with Next.js and integrates with major analytics providers.
+                                </p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <h4>Role</h4>
+                                        <p>Full Stack Developer</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4>Timeline</h4>
+                                        <p>March 2023 - May 2023</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4>Status</h4>
+                                        <p>Deployed</p>
+                                    </div>
+                                </div>
+                                <div class="project-tech">
+                                    <h4>Technologies</h4>
+                                    <div class="tech-list">
+                                        <span class="tag">Next.js</span>
+                                        <span class="tag">React</span>
+                                        <span class="tag">Chart.js</span>
+                                        <span class="tag">API Integration</span>
+                                        <span class="tag">Real-time Data</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View on GitHub</a>
+                                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5 -->
+                    <article class="project-detail">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h2>CLI Tool for Web Development</h2>
+                                <p class="project-description">
+                                    A command-line tool that streamlines common web development tasks including project scaffolding, 
+                                    file optimization, and deployment automation. Written in Node.js with a focus on developer 
+                                    experience and extensibility through plugins.
+                                </p>
+                                <div class="project-details">
+                                    <div class="detail-item">
+                                        <h4>Role</h4>
+                                        <p>Creator</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4>Timeline</h4>
+                                        <p>January 2023 - Present</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <h4>Status</h4>
+                                        <p>Active Development</p>
+                                    </div>
+                                </div>
+                                <div class="project-tech">
+                                    <h4>Technologies</h4>
+                                    <div class="tech-list">
+                                        <span class="tag">Node.js</span>
+                                        <span class="tag">CLI</span>
+                                        <span class="tag">npm</span>
+                                        <span class="tag">Plugins</span>
+                                        <span class="tag">JavaScript</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View on GitHub</a>
+                                    <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Documentation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="open-source">
+            <div class="container">
+                <h2>Open Source Contributions</h2>
+                <p>I'm passionate about contributing to the open-source community. Here are some projects I've contributed to:</p>
+                <div class="contribution-list">
+                    <div class="contribution">
+                        <h3>Popular Framework</h3>
+                        <p>Fixed performance issues in rendering pipeline and improved documentation.</p>
+                        <a href="#">View Contributions →</a>
+                    </div>
+                    <div class="contribution">
+                        <h3>Web Standards</h3>
+                        <p>Contributed polyfills and test cases for emerging web standards.</p>
+                        <a href="#">View Contributions →</a>
+                    </div>
+                    <div class="contribution">
+                        <h3>Developer Tools</h3>
+                        <p>Enhanced build tooling and added new features for common workflows.</p>
+                        <a href="#">View Contributions →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Adam Frank. All rights reserved.</p>
+            <p class="footer-note">Built with HTML, CSS, and JavaScript. Hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

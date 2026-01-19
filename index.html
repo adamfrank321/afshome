@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Frank - Software Engineer & Designer</title>
+    <meta name="description" content="Personal portfolio and blog of Adam Frank, exploring software engineering, design, and web technologies.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%23000'>AF</text></svg>">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="/" class="logo">AF</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="pages/writings.html" class="nav-link">Writings</a>
+                <a href="pages/projects.html" class="nav-link">Projects</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <circle cx="12" cy="12" r="5"/>
+                        <line x1="12" y1="1" x2="12" y2="3"/>
+                        <line x1="12" y1="21" x2="12" y2="23"/>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                        <line x1="1" y1="12" x2="3" y2="12"/>
+                        <line x1="21" y1="12" x2="23" y2="12"/>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Adam Frank</h1>
+                <p class="hero-subtitle">Software engineer. Designer. Builder.</p>
+                <p class="hero-description">
+                    Crafting elegant solutions at the intersection of technology and design. 
+                    Passionate about creating meaningful digital experiences and exploring the web platform.
+                </p>
+                <div class="hero-links">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="pages/writings.html" class="btn btn-secondary">Read My Writing</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About</h2>
+                <div class="about-content">
+                    <p>
+                        I'm a full-stack software engineer with a passion for building intuitive interfaces and robust backends. 
+                        With experience across multiple domains—from web development to system design—I enjoy tackling complex problems 
+                        and creating solutions that people actually want to use.
+                    </p>
+                    <p>
+                        When I'm not coding, I'm writing about web technologies, exploring design patterns, or contributing to open-source projects. 
+                        I believe in the power of clear communication and elegant code.
+                    </p>
+                    <div class="skills">
+                        <h3>Skills & Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="tag">JavaScript/TypeScript</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Web Design</span>
+                            <span class="tag">CSS/HTML</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">System Design</span>
+                            <span class="tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="featured-projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Personal Portfolio</h3>
+                            <p class="project-date">2024</p>
+                        </div>
+                        <p class="project-description">
+                            A modern, responsive personal website showcasing my work and thoughts. Built with HTML, CSS, and vanilla JavaScript.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="pages/projects.html" class="project-link">View Project →</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Web Experiments</h3>
+                            <p class="project-date">2024</p>
+                        </div>
+                        <p class="project-description">
+                            A collection of interactive web experiments exploring CSS animations, canvas graphics, and web APIs.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Canvas</span>
+                        </div>
+                        <a href="pages/projects.html" class="project-link">View Project →</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3>Dev Tools & Utilities</h3>
+                            <p class="project-date">2024</p>
+                        </div>
+                        <p class="project-description">
+                            Open-source developer tools and utilities built to solve real problems in my workflow.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">CLI</span>
+                            <span class="tag">Open Source</span>
+                        </div>
+                        <a href="pages/projects.html" class="project-link">View Project →</a>
+                    </article>
+                </div>
+                <div class="center-cta">
+                    <a href="pages/projects.html" class="btn btn-primary">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Writings -->
+        <section class="recent-writings">
+            <div class="container">
+                <h2>Recent Writings</h2>
+                <div class="writings-list">
+                    <article class="writing-item">
+                        <div class="writing-header">
+                            <h3><a href="pages/writings.html">Understanding Modern CSS Layout</a></h3>
+                            <time datetime="2024-01-15" class="writing-date">January 15, 2024</time>
+                        </div>
+                        <p>
+                            A deep dive into CSS Grid, Flexbox, and the newer layout primitives that are changing how we design responsive interfaces.
+                        </p>
+                        <a href="pages/writings.html" class="read-more">Read Article →</a>
+                    </article>
+
+                    <article class="writing-item">
+                        <div class="writing-header">
+                            <h3><a href="pages/writings.html">Building Better Web Applications</a></h3>
+                            <time datetime="2024-01-08" class="writing-date">January 8, 2024</time>
+                        </div>
+                        <p>
+                            Thoughts on architecture, performance, and user experience when building modern web applications at scale.
+                        </p>
+                        <a href="pages/writings.html" class="read-more">Read Article →</a>
+                    </article>
+
+                    <article class="writing-item">
+                        <div class="writing-header">
+                            <h3><a href="pages/writings.html">The Art of Clean Code</a></h3>
+                            <time datetime="2024-01-01" class="writing-date">January 1, 2024</time>
+                        </div>
+                        <p>
+                            Practical principles and patterns for writing code that is maintainable, readable, and a pleasure to work with.
+                        </p>
+                        <a href="pages/writings.html" class="read-more">Read Article →</a>
+                    </article>
+                </div>
+                <div class="center-cta">
+                    <a href="pages/writings.html" class="btn btn-primary">Read All Articles</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <h2>Let's Connect</h2>
+                <p class="contact-intro">
+                    I'm always interested in discussing technology, design, and interesting projects. 
+                    Feel free to reach out.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:adam@example.com" class="contact-link">Email</a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="contact-link">Twitter</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Adam Frank. All rights reserved.</p>
+            <p class="footer-note">Built with HTML, CSS, and JavaScript. Hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
